@@ -1,18 +1,6 @@
 # Real-time_Large-scale_Feedback
 
 
-
-**Folder Describtion：**
-
-|Class|Details|
-|---|---|
-|System controller||
-|FPGA|cameraControl, FPGA impl|
-|||
-|Real-time workstation (with GPUs)||
-|Real-time image storage||
-|ROIsegmentation&clustering||
-
 # **1. Introduction**
 ![img_1.png](img/img_1.png)
 The real-time analysis system is an FX architecture based on FPGA and GPU. What runs on FPGA is named F Engine and what runs on GPU is named X Engine. The F Engine acquires data from sensors of different types, performs optional pre-processing (filtering, FFT, etc), rearranges and packages the data into standard format to transfer to the X Engine. The F Engine is designed to be compatible with many different sensor interfaces, which are all mounted to the FPGA board through FPGA Mezzanine Card (FMC) or FMC+.
