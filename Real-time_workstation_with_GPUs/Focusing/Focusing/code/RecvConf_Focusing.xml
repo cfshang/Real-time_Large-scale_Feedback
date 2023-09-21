@@ -1,0 +1,17 @@
+<rcvBufCfg>
+	 <!-- number of frames each receive buffer -->
+    	<nFramePerRcvBuf>8</nFramePerRcvBuf>
+	<deviceName1>0000:85:00.0</deviceName1>
+	<deviceName2>0000:85:00.1</deviceName2>
+
+	 
+    	<nRcvBufPerPool>100</nRcvBufPerPool>
+
+	<indexStartX>0</indexStartX>
+	<indexEndX>2047</indexEndX>
+	<indexStartY>0</indexStartY>
+	<indexEndY>2047</indexEndY>
+	
+
+       
+</rcvBufCfg>
