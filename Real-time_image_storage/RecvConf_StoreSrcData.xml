@@ -1,0 +1,29 @@
+<rcvBufCfg>
+	 <!-- number of frames each receive buffer -->
+    	<nFramePerRcvBuf>5</nFramePerRcvBuf>
+	<deviceName1>0000:84:00.0</deviceName1>
+	<deviceName2>0000:84:00.1</deviceName2>
+       <recvLog1>/home/ubuntu/recvlog/store_21.blackhole</recvLog1>
+	<recvLog2>/home/ubuntu/recvlog/store_22.blackhole</recvLog2>
+
+        <!-- filename for storing received data -->
+	<ifStoreSrcData>true</ifStoreSrcData>
+	<srcdataStore>/media/ubuntu/DATA-STORE4/20200515/srcdata/src</srcdataStore>
+    	
+
+       
+       
+  	<!-- number of receive buffers each receive pool -->
+    	<nRcvBufPerPool>100</nRcvBufPerPool>
+
+
+	<indexStartX>0</indexStartX>
+	<indexEndX>2047</indexEndX>
+	<indexStartY>0</indexStartY>
+	<indexEndY>2047</indexEndY>
+
+	<regNumber>25</regNumber>
+	
+	<pauseTime>40</pauseTime>
+
+</rcvBufCfg>
